@@ -1,0 +1,21 @@
+{
+    "name": "nowqs/log",
+    "description": "it's php log",
+    "type": "library",
+    "license": "apache-2.0",
+    "authors": [
+        {
+            "name": "Qs",
+            "email": "quanangel@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qs\\log\\": "src/"
+        }
+    }
+}
